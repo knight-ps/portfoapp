@@ -1,0 +1,88 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+<!--
+	Miniport by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Charles Nana Asiedu - Software Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<link rel="icon" href="static/images/nana.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+                    <li><a href="{% url 'index' %}">Home</a></li>
+					<li><a href="{% url 'skills' %}">Skills</a></li>
+					<li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+					<li><a href="{% url 'contact' %}">Contact</a></li>
+				</ul>
+			</nav>
+
+            <!-- Work -->
+			<article id="skills" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>SKILLS</h2>
+						<p>These are what I can do.</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-chart-line"></span>
+								<h3>Data Analytics</h3>
+								<p>I have skills in cleaning, transforming, manipulating and modelling data using Python.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-laptop-code"></span>
+								<h3>Web Development</h3>
+								<p>I build websites and web applications with HTML, CSS, Bootstrap CSS, Tailwind and Python (Flask & Django).</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-desktop"></span>
+								<h3>Desktop application</h3>
+								<p>I build desktop apps using Python and Python technologies such as Tkinter,Kivy etc..</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-cloud"></span>
+								<h3>Cloud Computing</h3>
+								<p>I'm familiar with Cloud Platforms such as Microst Azure, Microsoft 365, Heroku, Digital Ocean and Railway</p>
+							</section>
+						</div>	
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-audio-description"></span>
+								<h3>System Administration</h3>
+								<p>I'm experienced in the management, troubleshooting, maintenance and optimization of Computer Servers and Networks. </p>
+							</section>
+						</div>	
+					</div>
+					<footer>
+						<p>Do you want to see some of the projects I have worked on ?</p>
+						<a href="{% url 'portfolio' %}" class="button large scrolly">CHECK OUT MY PORTFOLIO</a>
+					</footer>
+				</div>
+			</article>
+
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+			<footer>
+					<li>&copy; {% now 'Y' %} Charles Nana Asiedu. All rights reserved.</li>
+			</footer>
+			</div>
+			</article>
+	</body>
+    </html>

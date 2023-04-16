@@ -1,0 +1,92 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+<!--
+	Miniport by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Charles Nana Asiedu - Software Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<link rel="icon" href="static/images/nana.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+                    <li><a href="{% url 'index' %}">Home</a></li>
+					<li><a href="{% url 'skills' %}">Skills</a></li>
+					<li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+					<li><a href="{% url 'contact' %}">Contact</a></li>
+				</ul>
+			</nav>
+<!-- Portfolio -->
+<article id="portfolio" class="wrapper style3">
+    <div class="container">
+        <header>
+            <h2>PORTFOLIO</h2>
+            <p>These are some of the projects I've worked on.</p>
+        </header>
+        <div class="row">
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="https://nanasrnp.up.railway.app" class="image featured"><img src="static/images/dice.jpg" alt="" /></a>
+                    <h3><a href="https://nanasrnp.up.railway.app">Random Name Picker</a></h3>
+                    <p>A web app that picks a random name in a list of names. It's a fun app that can be used for any chance game including picking giveaway winners. Built with Python and Flask.</p>
+                </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="https://nanasanalytics.up.railway.app" class="image featured"><img src="static/images/chart.jpg" alt="" /></a>
+                    <h3><a href="https://nanasanalytics.up.railway.app">My Data Analytics site</a></h3>
+                    <p>A Website for my Data Analytics Projects.</p>
+                </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="https://nanasweathercheck.herokuapp.com/" class="image featured"><img src="static/images/weathericon.jpg" alt="" /></a>
+                    <h3><a href="https://nanasweatherapp.up.railway.app/">Weather App</a></h3>
+                    <p>A Web App that presents the current weather conditions of cities. This app utilizes API technology and was built with django.</p>
+                </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="https://nanabuysell-nf6t4.ondigitalocean.app/" class="image featured"><img src="static/images/buynow.jpg" alt="" /></a>
+                    <h3><a href="https://nanabuysell-nf6t4.ondigitalocean.app/">Buy&SellGH</a></h3>
+                    <p>An E Commerce Website where users can register, login, upload images and information on the products they're selling, and create user profile with their pictures and contact information. Users can also edit and delete their posts.</p>
+                </article>
+            </div>
+            <!--<div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="#" class="image featured"><img src="static/images/undercon.png" alt="" /></a>
+                    <h3><a href="#">Feugiat aliquam</a></h3>
+                    <p>Ornare nulla proin odio consequat.</p>
+                </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="#" class="image featured"><img src="static/images/pic06.jpg" alt="" /></a>
+                    <h3><a href="#">Sed amet ornare</a></h3>
+                    <p>Ornare nulla proin odio consequat.</p>
+                </article>
+            </div>
+        </div>
+        <footer>
+            <a href="#contact" class="button large scrolly">GET IN TOUCH</a>
+        </footer>-->
+    </div>
+</article>
+<article id="contact" class="wrapper style4">
+    <div class="container medium">
+<footer>
+        <li>&copy; {% now 'Y' %} Charles Nana Asiedu. All rights reserved.</li>
+</footer>
+</div>
+</article>
+</body>
+</html>
