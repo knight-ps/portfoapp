@@ -39,19 +39,20 @@
 								<h1>I'm <strong>Charles Nana Asiedu</strong></h1>
 							</header>
 							<p>I'm a Software Developer (Backend) and Data Analyst. My stacks include Python, Django, Flask and Android Development with Java.</p>
-							<a href="#skills" class="button large scrolly">CHECK OUT MY SKILLS</a>
+							<a href="{% url 'skills' %}" class="button large scrolly">CHECK OUT MY SKILLS</a>
 						</div>
 					</div>
 				</div>
 			</article>
-
-			<article id="contact" class="wrapper style4">
+             
+			<article id="contact" class="wrapper style4" style="position:absolute; bottom:0; width: 100%;">
 				<div class="container medium">
 			<footer>
 					<li>&copy; {% now 'Y' %} Charles Nana. All rights reserved.</li>
 			</footer>
 			</div>
 			</article>
+		
 
 		
 		
